@@ -1,0 +1,14 @@
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\stream_buffer.c
+.\objects\stream_buffer.o: C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\stream_buffer.o: C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\FreeRTOS.h
+.\objects\stream_buffer.o: C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\FreeRTOSConfig.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\projdefs.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\portable.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\deprecated_definitions.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\mpu_wrappers.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\task.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\list.h
+.\objects\stream_buffer.o: ..\FreeRTOS\Source\include\stream_buffer.h
