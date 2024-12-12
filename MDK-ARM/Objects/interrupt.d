@@ -41,6 +41,7 @@
 .\objects\interrupt.o: ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h
 .\objects\interrupt.o: ..\USER\systick.h
 .\objects\interrupt.o: ..\Driver\Include\usart.h
+.\objects\interrupt.o: ..\Driver\Include\project.h
 .\objects\interrupt.o: ..\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\interrupt.o: C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
 .\objects\interrupt.o: ..\FreeRTOS\Source\include\FreeRTOSConfig.h
@@ -55,7 +56,6 @@
 .\objects\interrupt.o: ..\FreeRTOS\Source\include\queue.h
 .\objects\interrupt.o: ..\FreeRTOS\Source\include\event_groups.h
 .\objects\interrupt.o: ..\Driver\Include\led.h
-.\objects\interrupt.o: ..\Driver\Include\project.h
 .\objects\interrupt.o: ..\Driver\Include\gpio.h
 .\objects\interrupt.o: ..\Driver\Include\interrupt.h
 .\objects\interrupt.o: ..\Driver\Include\btim.h

@@ -127,16 +127,25 @@ void start_task(void *pvParameters)
 	
 }
 
+
 int main(void)
 {
-	BaseType_t result = NULL;			
-	SCB->VTOR = FLASH_BASE | 0x8000;
+	BaseType_t result = NULL;
+    usart_struc_def com0;  
+	com0 = (usart_struc_def)malloc(sizeof(usart_struct)); // 动态分配内存
+	if (com0 == NULL) {
+		printf("Memory allocation failed\n");
+	}	
+	//SCB->VTOR = FLASH_BASE | 0x8000;
 	/* NVIC */
     nvic_priority_group_set( NVIC_PRIGROUP_PRE4_SUB0 );
     /* configure systick */
 	systick_config();
 	gpio_config();
-	usart_config();
+    init_com0(com0);
+	usart_config(com0);
+	free(com0);  
+	init_receive_queue();
 	printf("start_config!!!\r\n");
 	/* creat task of start */
 	result = xTaskCreate((TaskFunction_t)start_task,

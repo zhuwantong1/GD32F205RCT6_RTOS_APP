@@ -39,7 +39,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-F (..\USER\main.c)(0x67593167)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\GD32F20x_Firmware_Library\CMSIS -I ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include -I ..\GD32F20x_Firmware_Library\CMSIS\GD\GD32F20x\Include -I ..\FreeRTOS\Source\include -I ..\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Driver\Include-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32F20x_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DGD32F20X_CL -DUSE_STDPERIPH_DRIVER -DGD32F20X_CL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\USER\main.c)(0x67595EF0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\GD32F20x_Firmware_Library\CMSIS -I ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include -I ..\GD32F20x_Firmware_Library\CMSIS\GD\GD32F20x\Include -I ..\FreeRTOS\Source\include -I ..\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Driver\Include-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32F20x_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DGD32F20X_CL -DUSE_STDPERIPH_DRIVER -DGD32F20X_CL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Driver\Include\project.h)(0x6757E120)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
@@ -80,7 +80,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)
@@ -177,7 +177,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)
@@ -195,7 +195,7 @@ I (..\Driver\Include\led.h)(0x6757F378)
 I (..\Driver\Include\gpio.h)(0x675262A7)
 I (..\Driver\Include\interrupt.h)(0x67526886)
 I (..\Driver\Include\btim.h)(0x67580B53)
-F (..\Driver\Source\usart.c)(0x67580DFC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\GD32F20x_Firmware_Library\CMSIS -I ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include -I ..\GD32F20x_Firmware_Library\CMSIS\GD\GD32F20x\Include -I ..\FreeRTOS\Source\include -I ..\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Driver\Include-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32F20x_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DGD32F20X_CL -DUSE_STDPERIPH_DRIVER -DGD32F20X_CL-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+F (..\Driver\Source\usart.c)(0x67595EF0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\GD32F20x_Firmware_Library\CMSIS -I ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include -I ..\GD32F20x_Firmware_Library\CMSIS\GD\GD32F20x\Include -I ..\FreeRTOS\Source\include -I ..\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Driver\Include-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32F20x_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DGD32F20X_CL -DUSE_STDPERIPH_DRIVER -DGD32F20X_CL-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
 I (..\Driver\Include\project.h)(0x6757E120)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
@@ -236,7 +236,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)
@@ -295,7 +295,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)
@@ -354,7 +354,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)
@@ -413,7 +413,7 @@ I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_tl
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_usart.h)(0x6593DA7E)
 I (..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h)(0x6593DA7E)
 I (..\USER\systick.h)(0x66EACC83)
-I (..\Driver\Include\usart.h)(0x67519726)
+I (..\Driver\Include\usart.h)(0x67595DCF)
 I (..\FreeRTOS\Source\include\FreeRTOS.h)(0x61C2EEAA)
 I (C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
 I (..\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6757E268)

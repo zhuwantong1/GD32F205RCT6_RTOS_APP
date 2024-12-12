@@ -41,6 +41,7 @@
 .\objects\usart.o: ..\GD32F20x_Firmware_Library\GD32F20x_standard_peripheral\Include\gd32f20x_wwdgt.h
 .\objects\usart.o: ..\USER\systick.h
 .\objects\usart.o: ..\Driver\Include\usart.h
+.\objects\usart.o: ..\Driver\Include\project.h
 .\objects\usart.o: ..\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\usart.o: C:\Users\admin\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
 .\objects\usart.o: ..\FreeRTOS\Source\include\FreeRTOSConfig.h
@@ -55,7 +56,6 @@
 .\objects\usart.o: ..\FreeRTOS\Source\include\queue.h
 .\objects\usart.o: ..\FreeRTOS\Source\include\event_groups.h
 .\objects\usart.o: ..\Driver\Include\led.h
-.\objects\usart.o: ..\Driver\Include\project.h
 .\objects\usart.o: ..\Driver\Include\gpio.h
 .\objects\usart.o: ..\Driver\Include\interrupt.h
 .\objects\usart.o: ..\Driver\Include\btim.h
